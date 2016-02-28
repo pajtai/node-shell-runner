@@ -26,7 +26,8 @@ function runCommands(commands) {
         if (options && options.async) {
             execBg(command, options);
         } else {
-            exec(command, { stdio: 'inherit' });
+            options = _.extend({ stdio : 'inherit' }, options);
+            exec(command, options);
         }
     });
 }
