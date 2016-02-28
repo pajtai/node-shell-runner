@@ -1,0 +1,23 @@
+{
+  "name": "node-shell-runner",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pajtai/node-shell-runner.git"
+  },
+  "author": "Peter Ajtai <peter.ajtai@thinksolid.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pajtai/node-shell-runner/issues"
+  },
+  "homepage": "https://github.com/pajtai/node-shell-runner#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^4.5.1"
+  }
+}
